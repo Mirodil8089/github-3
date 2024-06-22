@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Coffee Shop</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <a href="#"
+            ><ion-icon
+              class=""
+              style="width: 40px; height: 40px"
+              name="basket"
+            ></ion-icon
+          ></a>
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section">
+      <div class="hero-content">
+        <h1>Welcome to Our Coffee Shop</h1>
+        <p>You will get these coffees at the prices shown below.</p>
+        <a href="#menu" class="btn btn-primary">Explore Menu</a>
+      </div>
+    </header>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+      <div class="container">
+        <h2 class="section-title">Our Menu</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img src="./img/coffee1.jpg" alt="Espresso" class="img-fluid" />
+              <h3>Espresso</h3>
+              <p>
+                Enjoy a rich and bold espresso priced at 100,000
+                <del>130,000</del> soums.
+              </p>
+              <button class="btn btn-dark">
+                <a style="text-decoration: none" href="#">Add to Card</a>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img src="./img/coffe2.jpg" alt="Latte" class="img-fluid" />
+              <h3>Latte</h3>
+              <p>A smooth and creamy latte. Its price: 100,000 soums</p>
+              <button class="btn btn-dark">
+                <a style="text-decoration: none" href="#">Add to Card</a>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img src="./img/coffee3.jpg" alt="Cappuccino" class="img-fluid" />
+              <h3>Cappuccino</h3>
+              <p>A perfectly balanced cappuccino. Its price: 123,000 soums</p>
+              <button class="btn btn-dark">
+                <a style="text-decoration: none" href="#">Add to Card</a>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img src="./img/coffee4.jpg" alt="Espresso" class="img-fluid" />
+              <h3>jacobs cappuccino</h3>
+              <p>Enjoy a rich and thick jacobs cappuccino for 15,000 soums.</p>
+              <button class="btn btn-dark">
+                <a style="text-decoration: none" href="#">Add to Card</a>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img src="./img/coffee5.webp" alt="Latte" class="img-fluid" />
+              <h3>Keto coffee</h3>
+              <p>A smooth and creamy Keto coffee. Its price: 199,000 soums</p>
+              <button class="btn btn-dark">
+                <a style="text-decoration: none" href="#">Add to Card</a>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img src="./img/choy6.jpg" alt="Cappuccino" class="img-fluid" />
+              <h3>Ko'k choy</h3>
+              <p>A perfectly balanced blue tea. Its price: 8,000 soums</p>
+              <button class="btn btn-dark">
+                <a style="text-decoration: none" href="#">Add to Card</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <p>
+          Our coffees are of high quality and will attract you with their aroma
+          and taste. Try to drink them. Come to our coffee shop or order by
+          phone.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="4"
+              placeholder="Enter your message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section bg-dark text-white">
+      <div class="container">
+        <p>&copy; 2024 Coffee Shop. All rights reserved.</p>
+        <b
+          ><ion-icon name="call"></ion-icon> Our telephone numbers are: 88 009
+          25 11.</b
+        >
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
